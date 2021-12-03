@@ -1,0 +1,167 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none
+}
+
+a{
+  text-decoration: none;
+  color: #696969;
+}
+
+/*トップページ*/
+.top-page-area {
+  display: flex;
+  height: 100vh;
+}
+
+.top-left {
+  position: relative;
+  width: calc(100% - 500px);
+  background-color: #333333;
+}
+
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: serif;
+    margin: 10px 0 0 10px;
+}
+
+.top-right {
+  position: relative;
+  width: 500px;
+  background-color: #f3f3f5;
+}
+
+.top-left-img{
+    height: 100%;
+    width: 100%;
+}
+
+.top-right-image-text{
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    text-align: center;
+}
+
+.top-right-image-text h2{
+    font-family: serif;
+}
+
+.top-right-img{
+    height: 350px;
+    width: 300px;
+}
+
+/*ギャラリー*/
+.galleries-title {
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid red;
+  width: 200px;
+  margin: 100px auto 100px;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+
+.galleries-area{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo-image{
+  height: 300px;
+  width: 400px;
+}
+
+.photo-name,
+.photo-detail{
+  color: black;
+  text-align: center;
+}
+
+.galleries-area li{
+    margin-bottom: 60px;
+}
+
+.contact-area{
+  height: 100vh;
+}
+
+/*コンタクト*/
+.contact {
+  height: calc(100vh - 286px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-name{
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid red;
+  width: 200px;
+  margin: 100px auto 50px;
+  font-family: serif;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  
+}
+
+.contact-form {
+  width: 600px;
+}
+
+
+.name-form {
+  margin: 0 auto 10px;
+}
+
+.message-form {
+  height: 150px;
+  margin: 0 auto 30px;
+}
+
+.name-form,
+.message-form {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  border: solid 1px #6091d3;
+  display: block;
+}
+
+.send {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid white;
+  color: white;
+  background-color: #f5a4a4;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.copyright{
+  text-align: center;
+}
